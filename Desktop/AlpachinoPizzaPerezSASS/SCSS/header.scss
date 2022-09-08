@@ -1,0 +1,44 @@
+header{
+    background-color: $myColor;
+    border: solid black 2px;
+        img{
+                top: 0px;
+                left: 0px;
+                padding: 0px!important;
+                position: absolute;
+            }
+        h1{
+            color: azure;
+            -webkit-text-stroke: 1.5px;
+            -webkit-text-stroke-color: black;
+            -webkit-text-fill-color: #e9f50870;
+        }
+        li {
+            display: inline;  
+            list-style: none;
+            text-decoration: none;
+            color: rgb(240, 246, 243);
+            font-size: 30px;
+            padding: 10px;
+            margin: 10px;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .header {
+        height: 220px;
+        width: 100%;
+    }
+    
+    .header-container {
+        min-height: 200px;
+    }
+    
+    .logo-container {
+        top: 0px;
+        left: 0px;
+        padding: 0px!important;
+        position: absolute;
+    }
